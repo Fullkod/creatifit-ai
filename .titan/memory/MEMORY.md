@@ -69,6 +69,8 @@ Reconstruida el **2026-09-10**, base de código **2cb14df**. Reconstrucción de 
 | [Plan del piloto en Cuba](../plans/2026-10-12-piloto-cuba-qa.md) | QA general de octubre 2026: qué se corrigió y qué falta |
 | [Plan manual + relleno con IA](../plans/prp-plan-manual-relleno-ia.md) | Editor de planes, cupo de IA, guardado de la estructura de un plan |
 
+- [Correo de Fullkod](reference/correo-fullkod-resend.md) — @fullkod.com va por Resend (contact@, support@), sin reenvío; cada proyecto decide cómo avisar de sus formularios
+
 ## Al retomar
 
 Comprobar git status y cambios posteriores al baseline; leer contexto y área solicitada. No reabrir pendientes ya resueltos de documentos antiguos. Proponer próximos pasos desde pendientes sin ejecutarlos fuera de alcance. Actualizar la entrada correspondiente con fecha/evidencia tras cambios significativos. No cargar todos los documentos ni datos personales cada vez.
