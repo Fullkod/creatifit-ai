@@ -6,6 +6,7 @@ import { ConnectionBanner } from "@/components/ui/connection-banner";
 import { SideNav } from "@/components/ui/side-nav";
 import { AuthGate } from "@/components/auth/auth-gate";
 import { startOutboxSync } from "@/lib/workout-outbox";
+import { FullkodCredit } from "@/components/ui/fullkod-credit";
 
 // Raíces de tab: si el back button se pulsa estando aquí (y sin historial
 // propio), permitimos minimizar/salir la app en vez de navegar.
@@ -92,6 +93,9 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
             <main className="flex-1 safe-left safe-right pb-24 lg:pb-8">
               <ConnectionBanner />
               {children}
+              <div className="flex justify-end px-5 pt-8 lg:px-8">
+                <FullkodCredit />
+              </div>
             </main>
             {/* Bottom-nav solo en móvil */}
             <div className="lg:hidden">

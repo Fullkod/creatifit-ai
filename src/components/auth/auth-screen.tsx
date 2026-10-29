@@ -17,6 +17,7 @@ import {
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 import { useTranslation } from "react-i18next";
+import { FullkodCredit } from "@/components/ui/fullkod-credit";
 
 type Mode = "signin" | "signup";
 
@@ -448,8 +449,9 @@ function Shell({ children }: { children: React.ReactNode }) {
           </div>
         </div>
 
-        <div className="relative text-white/60 text-xs font-semibold">
-          © CreatiFit AI
+        <div className="relative flex flex-wrap items-center gap-x-3 gap-y-1 text-white/60 text-xs font-semibold">
+          <span>© CreatiFit AI</span>
+          <FullkodCredit tone="onDark" />
         </div>
       </div>
 
@@ -463,6 +465,7 @@ function Shell({ children }: { children: React.ReactNode }) {
             centrado. */}
         <div className="relative z-10 w-full max-w-md mx-auto flex flex-col flex-1 lg:flex-initial px-6 lg:py-12">
           {children}
+          <FullkodCredit className="lg:hidden self-center mt-auto pt-6 pb-4" />
         </div>
       </div>
     </div>

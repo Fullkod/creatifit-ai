@@ -1,6 +1,7 @@
 import { Wordmark } from "@/components/ui/brand";
 import { ArrowLeft } from "lucide-react";
 import Link from "next/link";
+import { FullkodCredit } from "@/components/ui/fullkod-credit";
 
 // Shell común para las páginas legales/soporte (públicas, sin auth). Reusa el
 // tema oscuro del landing. No lleva "use client": es contenido estático.
@@ -56,7 +57,10 @@ export function LegalShell({
             <Link href="/account-deletion" className="hover:text-txt transition-colors">Borrar cuenta</Link>
             <Link href="/support" className="hover:text-txt transition-colors">Soporte</Link>
           </div>
-          <div className="cf-muted text-[12.5px]">© 2026 CreatiFit AI</div>
+          <div className="cf-muted text-[12.5px] flex flex-col items-center sm:items-end gap-1">
+            <span>© 2026 CreatiFit AI</span>
+            <FullkodCredit />
+          </div>
         </footer>
       </div>
     </div>

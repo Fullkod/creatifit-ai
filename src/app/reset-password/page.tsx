@@ -8,6 +8,7 @@ import { Capacitor } from "@capacitor/core";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
+import { FullkodCredit } from "@/components/ui/fullkod-credit";
 
 type Phase = "checking" | "ready" | "invalid" | "done";
 
@@ -258,6 +259,7 @@ export default function ResetPasswordPage() {
           </form>
         )}
       </div>
+      <FullkodCredit className="relative z-10 self-center pb-6" />
     </div>
   );
 }

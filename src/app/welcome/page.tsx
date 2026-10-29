@@ -17,6 +17,7 @@ import {
   Zap,
 } from "lucide-react";
 import Link from "next/link";
+import { FullkodCredit } from "@/components/ui/fullkod-credit";
 
 /* ---------- Mockup estático del teléfono para el hero ---------- */
 function PhoneMock() {
@@ -424,17 +425,7 @@ export default function WelcomePage() {
           </div>
           <div className="cf-muted text-[13px] flex flex-col items-center sm:items-end gap-1">
             <span>© 2026 CreatiFit AI</span>
-            <a
-              href="https://fullkod.com/?ref=creatifit-ai"
-              target="_blank"
-              rel="noopener"
-              className="inline-flex items-center gap-1.5 hover:text-txt transition-colors"
-            >
-              Desarrollado por
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src="/brand/fullkod-symbol-reversed.svg" alt="" className="h-3.5 w-3.5" />
-              <span className="font-semibold text-txt">Fullkod</span>
-            </a>
+            <FullkodCredit tone="onDark" />
           </div>
         </footer>
       </div>

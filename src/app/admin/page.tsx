@@ -30,6 +30,7 @@ import {
   type AdminUserDetail,
   type Tier,
 } from "@/lib/admin/admin-api";
+import { FullkodCredit } from "@/components/ui/fullkod-credit";
 
 const TIER_LABEL: Record<Tier, string> = {
   free: "Free",
@@ -617,6 +618,9 @@ export default function AdminPage() {
             )}
           </div>
         )}
+        <div className="flex justify-end pt-8">
+          <FullkodCredit />
+        </div>
       </div>
     </div>
   );
