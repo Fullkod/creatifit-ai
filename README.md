@@ -183,3 +183,8 @@ Proprietary software. All rights reserved by Fullkod — see [LICENSE](LICENSE).
 ## Support
 
 For support, please open an issue on GitHub or contact the development team.
+
+<!-- fullkod-signature -->
+---
+
+<a href="https://fullkod.com/?ref=creatifit-ai"><img src="https://fullkod.com/brand/fullkod-symbol.svg" width="20" height="20" align="center" alt="Fullkod"></a> Built by **[Fullkod](https://fullkod.com/?ref=creatifit-ai)**
