@@ -178,7 +178,7 @@ Make sure to set all required environment variables in your production environme
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Proprietary software. All rights reserved by Fullkod — see [LICENSE](LICENSE).
 
 ## Support
 

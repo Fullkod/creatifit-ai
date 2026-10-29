@@ -4,7 +4,7 @@ Fecha de lectura: 2026-09-10. Base: 2cb14df. Las rutas de esta tabla parten de l
 
 | Fuente | Tratamiento y conocimiento conservado |
 |---|---|
-| README.md | Lectura completa. Visión original útil; Prisma/API/scripts db obsoletos. LICENSE sí existe en raíz (MIT de CreativesCode); no extenderla automáticamente a recursos terceros de Titan |
+| README.md | Lectura completa. Visión original útil; Prisma/API/scripts db obsoletos. LICENSE en raíz: todos los derechos reservados, Fullkod (antes MIT; cambiado el 2026-10-28); no aplica a recursos de terceros de Titan |
 | instructions.md | Lectura completa. Brief, restricciones UX, i18n y Tailwind; arquitectura/ejemplos de arranque superados parcialmente. Offline/push/periodización como propuestas |
 | EXERCISES-README.md | Lectura completa. Tres SQL home/equipment/advanced citados no existen en árbol actual. No seguir su instalación como vigente |
 | MOBILE-ENV-SETUP.md | Lectura completa. Instrucciones de secretos inseguras/obsoletas; no aplicables |
